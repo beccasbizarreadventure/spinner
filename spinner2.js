@@ -3,4 +3,4 @@ for (let i = 0; i < timerCharacter.length; i++) {
   setTimeout(() => {
     process.stdout.write(timerCharacter[i]);
   }, i * 200);
-};
+}
